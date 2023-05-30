@@ -37,6 +37,7 @@ main {
   align-items: center;
   justify-content: space-between;
   background-color: #14dbde55;
+  position: relative;
 }
 
 .question-card p {
@@ -46,9 +47,27 @@ main {
 }
 
 .question-card button {
-  margin: 35px;
+  margin-top: 40px;
+  margin-bottom: 60px;
   padding: 15px 40px 15px 40px;
   background-color: #05faaf;
   border: 2px solid #14dcde;
   font-size: 1.5rem;
+}
+
+.question-card ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.question-card ul li {
+  padding: 5px 10px 5px 10px;
+  background-color: #22b6f599;
+  border-radius: 5px;
+  border: 1px solid #22b6f5;
 }
