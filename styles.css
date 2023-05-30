@@ -117,6 +117,12 @@ footer nav ul li:hover {
   background-color: #21b6f637;
 }
 
+a:focus .bxs-home-alt-2,
+a:focus .bxs-bookmark,
+a:focus .bx-user-circle {
+  color: #23b68b;
+}
+
 a .bxs-home-alt-2,
 a .bxs-bookmark,
 a .bx-user-circle {
