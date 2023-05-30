@@ -55,6 +55,11 @@ main {
   font-size: 1.5rem;
 }
 
+.question-card button:hover {
+  background-color: #22b78b;
+  border: 2px solid #12bbbd;
+}
+
 .question-card ul {
   list-style: none;
   display: flex;
@@ -77,5 +82,9 @@ main {
   position: absolute;
   top: -15px;
   right: 5px;
-  color: #1467DE;
+  color: #1467de;
+}
+
+.bxs-bookmark:hover {
+  color: #035ad5;
 }
