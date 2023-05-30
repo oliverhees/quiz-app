@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -15,4 +19,72 @@ header {
   display: flex;
   justify-content: center;
   color: white;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.question-card {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border: 1px solid lightgrey;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #14dbde55;
+  position: relative;
+}
+
+.question-card p {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.question-card button {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 15px 40px 15px 40px;
+  background-color: #05faaf;
+  border: 2px solid #14dcde;
+  font-size: 1.5rem;
+}
+
+.question-card button:hover {
+  background-color: #22b78b;
+  border: 2px solid #12bbbd;
+}
+
+.question-card ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.question-card ul li {
+  padding: 5px 10px 5px 10px;
+  background-color: #22b6f599;
+  border-radius: 5px;
+  border: 1px solid #22b6f5;
+}
+
+.bxs-bookmark {
+  font-size: 4rem;
+  position: absolute;
+  top: -15px;
+  right: 5px;
+  color: #1467de;
+}
+
+.bxs-bookmark:hover {
+  color: #035ad5;
 }
