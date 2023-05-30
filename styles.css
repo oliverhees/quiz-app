@@ -85,7 +85,7 @@ main {
   color: #1467de;
 }
 
-.bxs-bookmark:hover {
+.question-card .bxs-bookmark:hover {
   color: #035ad5;
 }
 
@@ -94,7 +94,6 @@ footer nav {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding-top: 5px;
   border-top: 1px solid lightgrey;
 }
 
@@ -103,4 +102,20 @@ footer nav ul {
   font-size: 3.5rem;
   justify-content: space-around;
   list-style: none;
+}
+
+footer nav li {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer nav ul li:hover {
+  background-color: #05faaf;
+}
+
+footer nav ul li:active {
+  background-color: #05faaf;
 }
