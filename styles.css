@@ -128,3 +128,22 @@ a .bxs-bookmark,
 a .bx-user-circle {
   color: #21b5f6;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-image img {
+  width: 100px;
+}
+
+.user-name {
+  font-size: 2rem;
+}
