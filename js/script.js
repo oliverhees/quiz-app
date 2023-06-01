@@ -1,6 +1,8 @@
-const mainElement = document.querySelector(".dark-mode");
+const mainElement = document.querySelector("body");
+const darkModeToggle = document.querySelector(".dark-mode");
+// console.log(mainElement);
 
-console.log(mainElement);
-
-mainElement
-mainElement.classList.add("test");
+darkModeToggle.addEventListener("click", () => {
+  mainElement.classList.toggle("dark");
+  console.log("darkmode");
+});

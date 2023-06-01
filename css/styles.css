@@ -4,12 +4,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark-mode: #252727;
+}
+
 html {
   font-size: 14px;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dark {
+  background-color: var(--dark-mode);
 }
 
 header {
