@@ -6,6 +6,7 @@
 
 :root {
   --dark-mode: #252727;
+  --primary-color: #22b6f6;
 }
 
 html {
@@ -21,7 +22,7 @@ body {
 }
 
 header {
-  background-color: #22b6f6;
+  background-color: var(--primary-color);
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -91,7 +92,7 @@ main {
 
 .question-card ul li {
   padding: 5px 10px 5px 10px;
-  background-color: #22b6f599;
+  background-color: var(--primary-color);
   border-radius: 5px;
   border: 1px solid #22b6f5;
 }
